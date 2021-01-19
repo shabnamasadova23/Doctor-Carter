@@ -1,0 +1,898 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+#Header {
+  background-color: #132031;
+}
+
+#Header .left {
+  text-align: center;
+  font-size: 13px;
+}
+
+#Header .left i {
+  color: #6dd3f3;
+}
+
+#Header .left i span {
+  font-weight: 500;
+  padding-left: 6px;
+  color: #fff;
+}
+
+#Header .left .left-box {
+  padding: 15px 0;
+  border-left: .5px solid #6dd3f3;
+  border-right: .5px solid #6dd3f3;
+}
+
+#Header .left .left-box span a {
+  text-decoration: none;
+  color: #6dd3f3;
+}
+
+#Header .left .left-box span:hover a {
+  color: #fff;
+}
+
+#Header .right {
+  text-align: end;
+}
+
+#Header .right i {
+  color: #fff;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: 0 3px;
+}
+
+#Header .right i:hover {
+  color: #6dd3f3;
+}
+
+#Header .right a {
+  padding: 13px 20px;
+  text-decoration: none;
+  color: #fcfcfc;
+  background-color: #06b3e5;
+  border-radius: 30px;
+  font-size: 11px;
+  margin-left: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Header .right a:hover {
+  background-color: #fcfcfc;
+  color: #06b3e5;
+}
+
+#Header2 {
+  padding: 40px 0;
+}
+
+#Header2 .right {
+  text-align: right;
+}
+
+#Header2 .right .dropdown {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px;
+}
+
+#Header2 .right .dropdown .dropbtn {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#Header2 .right .dropdown .dropbtn:hover {
+  color: #afb1bb;
+}
+
+#Header2 .right .dropdown:hover .dp-content {
+  opacity: 1;
+}
+
+#Header2 .right .dropdown .second {
+  position: absolute;
+  top: 305%;
+  left: -50%;
+  min-width: 260px;
+  padding: 15px;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #f7f7f7;
+  text-align: left;
+  line-height: 35px;
+}
+
+#Header2 .right .dropdown .second a {
+  text-decoration: none;
+  display: block;
+  color: #383b46;
+}
+
+#Header2 .right .dropdown .second a:hover {
+  color: #425cbb;
+}
+
+#Header2 .right .dropdown .third {
+  position: absolute;
+  top: 305%;
+  left: -35rem;
+  min-width: 50rem;
+  padding: 15px;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #f7f7f7;
+  text-align: left;
+  line-height: 45px;
+}
+
+#Header2 .right .dropdown .third a {
+  text-decoration: none;
+  display: block;
+  color: #383b46;
+}
+
+#Header2 .right .dropdown .third a:hover {
+  color: #425cbb;
+}
+
+#Header2 .right .dropdown .fourth {
+  position: absolute;
+  top: 305%;
+  left: -42rem;
+  min-width: 48rem;
+  padding: 15px;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #f7f7f7;
+  text-align: left;
+  line-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Header2 .right .dropdown .fourth span {
+  color: #425cbb;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#Header2 .right .dropdown .fourth a {
+  text-decoration: none;
+  display: block;
+  color: #383b46;
+}
+
+#Header2 .right .dropdown .fourth a:hover {
+  color: #425cbb;
+}
+
+#Slider {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/revslider/1111/bg-01.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 12rem 0;
+}
+
+#Slider .slider-text h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+#Slider .slider-text h2 {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: revert;
+}
+
+#Slider .slider-text a {
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #06b3e5;
+  border-radius: 30px;
+  background-color: #06b3e5;
+  text-decoration: none;
+  line-height: 26px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Slider .slider-text a:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+#MediaHeader {
+  background-color: #132031;
+  text-align: center;
+  display: none;
+  margin-top: 3rem;
+  padding: 7px 0;
+}
+
+#MediaHeader i {
+  color: #fff;
+}
+
+#MediaNavbar {
+  padding: 20px 0;
+  text-align: center;
+  display: none;
+}
+
+#MediaNavbar .icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+#MediaNavbar .icons i {
+  margin: 0 10px;
+}
+
+#SliderAlt {
+  margin-top: -4rem;
+}
+
+#SliderAlt .box {
+  background-color: #2382c4;
+  padding: 30px 50px;
+}
+
+#SliderAlt .box h3 {
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+#SliderAlt .box p {
+  font-size: 15px;
+  color: #fff;
+}
+
+#SliderAlt .box a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #398fca;
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-size: 12px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#SliderAlt .box a:hover {
+  border: 2px solid #fff;
+}
+
+#SliderAlt .box:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#SliderAlt .box:nth-child(2) {
+  background-color: #2b56b8;
+}
+
+#SliderAlt .box:nth-child(3) {
+  background-color: #162b62;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#Categories {
+  margin: 5rem 0;
+}
+
+#Categories .ct-text {
+  text-align: center;
+}
+
+#Categories .ct-text h6 {
+  color: #6dd3f3;
+}
+
+#Categories .box {
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+}
+
+#Categories .box:hover::before {
+  width: 100%;
+}
+
+#Categories .box:hover::after {
+  width: 100%;
+}
+
+#Categories .box:hover a {
+  color: #383b46;
+}
+
+#Categories .box::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2b56b8;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#Categories .box::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2b56b8;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#Categories .box a {
+  margin: 0;
+  text-decoration: none;
+  color: #a2a5ad;
+  font-size: 20px;
+}
+
+#Categories .box:nth-child(1)::after {
+  width: 100%;
+}
+
+#Categories .box:nth-child(1)::before {
+  width: 100%;
+}
+
+#Categories .box:nth-child(1) a {
+  color: #383b46;
+}
+
+#Categories .ct-info a {
+  text-decoration: none;
+  border: 2px solid #2382c4;
+  background-color: #2382c4;
+  padding: 16px 35px;
+  border-radius: 30px;
+  font-size: 17px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #fff;
+}
+
+#Categories .ct-info a:hover {
+  background-color: transparent;
+  color: #2382c4;
+}
+
+#Doctors {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/Medical-team.png);
+  background-position: bottom center;
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+#Doctors .dr-text h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #0a0a0a;
+}
+
+#Doctors .dr-text h6 {
+  color: #06b3e5;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+#Doctors .dr-text h5 {
+  font-size: 23px;
+  line-height: 34px;
+  color: #0a0a0a;
+  font-weight: 100;
+  margin-bottom: 35px;
+}
+
+#Doctors .dr-text img {
+  margin-left: 8rem;
+}
+
+#Departament {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+#Departament h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#Departament h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+
+#Departament .img-box {
+  overflow: hidden;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#Departament .img-box:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#Departament .img-box img {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Departament .img-box .text a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#Counter {
+  background-color: #f2f2f2;
+  padding: 3rem 0;
+}
+
+#Counter .ct-box {
+  text-align: center;
+}
+
+#Counter .ct-box h4 {
+  color: #425cbb;
+  font-size: 40px;
+}
+
+#Counter .ct-box p {
+  font-size: 18px;
+  color: #292b36;
+}
+
+#Background {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/2-paralax.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 16rem 0;
+  background-attachment: fixed;
+}
+
+#Patient {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/4.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 6rem;
+}
+
+#Patient .text-all {
+  text-align: center;
+}
+
+#Patient .text-all h6 {
+  color: #06b3e5;
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 3rem;
+}
+
+#Patient .left {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#Patient .left img {
+  border-radius: 100%;
+}
+
+#Patient .right p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+}
+
+#Patient .right h5 {
+  color: #fff;
+  padding-top: 25px;
+}
+
+#Patient .right h6 {
+  color: #06b3e5;
+}
+
+#Workes .text {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#Workes .text h2 {
+  font-size: 34px;
+}
+
+#Workes .text h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+
+#Workes .box {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+#Workes .box .img-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#Workes .box .img-box:hover .overlay {
+  opacity: 0.85;
+}
+
+#Workes .box .img-box:hover .sosial {
+  opacity: 1;
+  top: 50%;
+}
+
+#Workes .box .img-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #adadad;
+  opacity: 0;
+  border-radius: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Workes .box .img-box .sosial {
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  left: 50%;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#Workes .box .img-box .sosial i {
+  color: #fff;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+#Workes .box .img-box img {
+  border-radius: 100%;
+  width: 100%;
+}
+
+#Workes .box a {
+  text-decoration: none;
+  color: #425cbb;
+  font-size: 24px;
+}
+
+#Workes .box a:hover {
+  color: #afb1bb;
+}
+
+#Workes .box p {
+  color: #383b46;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#Workes .box h6 {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+#Workes .button {
+  text-align: center;
+}
+
+#Workes .button a {
+  font-size: 12px;
+  line-height: 28px;
+  background-color: #abaebb;
+  color: #fcfcfc;
+  border-color: #abaebb;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#Workes .button a:hover {
+  border: 2px solid  #abaebb;
+  background-color: transparent;
+  color: #abaebb;
+}
+
+#Select .left {
+  padding: 0 30px;
+  position: relative;
+}
+
+#Select .left .img-text {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  right: 15%;
+}
+
+#Select .left .img-text h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#Select .left .img-text a {
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 9px 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#Select .left .img-text a:hover {
+  border: 2px solid #fff;
+}
+
+#Select .left img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+#Select .middle {
+  background-color: #162b62;
+  border-radius: 7px;
+  padding: 40px;
+}
+
+#Select .middle h2 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+#Select .middle select {
+  padding: 13px 40px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#Select .middle input {
+  padding: 13px 34px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#Select .middle input[type="date"] {
+  padding: 13px 52px;
+}
+
+#Select .middle .button {
+  text-align: center;
+  margin-top: 35px;
+}
+
+#Select .middle .button a {
+  background-color: #425cbb;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 178px;
+  border-radius: 30px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#Select .middle .button a:hover {
+  background-color: transparent;
+  color: #425cbb;
+  border: 2px solid #425cbb;
+}
+
+#Select .right h2 {
+  color: #292b36;
+  font-size: 27px;
+  line-height: 38px;
+  font-weight: 400;
+}
+
+#Select .right h5 a {
+  text-decoration: none;
+  color: #425cbb;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#Select .right h5 a:hover {
+  color: #06b3e5;
+}
+
+#Subscribe {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#Subscribe .sub-text h2, #Subscribe .sub-text p {
+  color: #fff;
+}
+
+#Footer1 {
+  background-color: #162b62;
+  padding: 3rem;
+}
+
+#Footer1 .ft-text {
+  text-align: center;
+}
+
+#Footer1 .ft-text p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#Footer1 .ft-text p span {
+  color: #06b3e5;
+}
+
+#Footer2 {
+  background-color: #132031;
+  padding: 4rem;
+  border-top: 2px solid;
+}
+
+#Footer2 .ft2-text {
+  position: relative;
+}
+
+#Footer2 .ft2-text h3 {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 44px;
+}
+
+#Footer2 .ft2-text p {
+  color: #778598;
+  font-size: 15px;
+}
+
+#Footer2 .ft2-text a {
+  color: #778598;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#Footer2 .ft2-text a:hover {
+  color: #06b3e5;
+}
+
+#Footer2 .ft2-text i {
+  position: absolute;
+  left: -17px;
+  font-size: 16px;
+  color: #06b3e5;
+}
+
+#Footer {
+  background-color: #132031;
+  border-top: 1px solid;
+  padding: 1rem;
+}
+
+#Footer .left span {
+  font-size: 15px;
+  color: #778598;
+}
+
+#Footer .left span a {
+  text-decoration: none;
+  color: #778598;
+}
+
+#Footer .left span a:hover {
+  color: #06b3e5;
+}
+
+#Footer .right ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#Footer .right ul li a {
+  text-decoration: none;
+  color: #778598;
+  font-size: 14px;
+  margin: 10px;
+}
+
+#Footer .right ul li a:hover {
+  color: #06b3e5;
+}
+
+@media (max-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+  #Header {
+    display: none;
+  }
+  #Mediaheader {
+    display: block;
+  }
+  #Header2 {
+    display: none;
+  }
+  #MediaNavbar {
+    display: block;
+  }
+  #Slider .slider-text h2 {
+    font-size: 40px;
+  }
+  #Patient {
+    text-align: center;
+  }
+  #Patient .right p {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  #Select .middle .button a {
+    padding: 14px 52px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
